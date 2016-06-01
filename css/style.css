@@ -1,0 +1,181 @@
+@font-face {
+  font-family: 'ASM Regular';
+  src: url('../fonts/ASM Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'ASM Bold';
+  src: url('../fonts/ASM Bold.otf') format('opentype');
+}
+
+body>* {
+  overflow: hidden;
+  font-family: 'ASM Bold';
+}
+body>div>.container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.navbar .navbar-brand {
+  font-size: 24px;
+}
+.navbar li {
+  font-size: 18px;
+}
+
+.accent {
+  background-color: #081bcc;
+  color: #ffffff;
+}
+.dark {
+  background-color: #000000;
+  color: #ffffff;  
+}
+.lessdark {
+  background-color: #0d0d0d;
+  color: #ffffff;
+}
+.lesslight {
+  background-color: #ededed;
+  color: #222222;
+}
+.light {
+  background-color: #ffffff;
+  color: #222222;
+}
+.lesslight h3, .light h3 {
+  color: #051add;  
+}
+
+h1 {
+  font-size: 76px;
+  line-height: 1.5;
+}
+h3 {
+  padding-bottom: 50px;
+  font-size: 42px;
+}
+
+
+#getStarted {
+  font-family: 'PT Mono', monospace;
+  font-size: 20px;
+}
+#getStarted img {
+  position: absolute;
+  top: 80px;
+  display: block;
+  height: 4rem;
+}
+#getStarted .item {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 150px 0;
+}
+
+.carousel-control.right, .carousel-control.left  {
+  background: none;
+  width: auto;  
+}
+.carousel.slide {
+  padding-right: 120px;
+  padding-left: 120px;
+}
+.carousel-inner .item img {
+  margin-bottom: 25px; 
+}
+.testimonial {
+  font-family: 'PT Sans', sans-serif;
+  font-style: italic;
+  font-size: 30px;
+}
+.signature {
+  font-family: 'PT Mono', monospace;
+  font-size: 20px;
+  color: #051add;
+  margin-top: 50px;
+}
+.signature a {
+  color: #051add;
+  text-decoration: underline;
+}
+
+.regular {
+  font-family: 'PT Mono', monospace;
+  font-size: 20px;
+  margin: 0 auto 50px auto;
+  max-width: 700px;
+}
+a.regular {
+  display: inline-block;
+  font-size: 16px;
+  color: #ffffff;
+  padding: 25px 50px;
+  border: 1px solid #ffffff;
+}
+a.regular:hover {
+  text-decoration: none;
+}
+.carousel-control .control {
+  display: block;
+  position: absolute;  
+  top: 50%;
+  width: 42px;
+  height: 42px;
+  background: url('../img/control-hover.png') no-repeat;
+  background-size: cover;
+}
+.carousel-control.right .control {
+  -webkit-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  right: 0;
+}
+footer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+ul.list-inline {
+  margin: 0;
+}
+footer a, footer a:hover, footer a:visited, footer a:focus {
+  font-size: 18px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.copyrights {
+  font-family: 'ASM Regular';
+  font-size: 14px;
+  opacity: 0.25;
+  padding-top: 5px;
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.tofade {
+  opacity: 0;
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+  .copyrights, footer ul { text-align: center}
+  .carousel.slide { padding-right: 50px; padding-left: 50px}
+  h1 {font-size: 32px}
+  h3 {font-size: 24px}
+  .carousel-control .control {width: 21px; height: 21px}
+  .testimonial {font-size: 20px}
+  .navbar .navbar-brand {font-size: 18px}
+  .signature, .regular, #getStarted {font-size: 15px}
+  footer a, footer a:hover, footer a:visited, .navbar li {font-size: 15px}
+  a.regular {font-size: 16px}
+  .copyrights {font-size: 10px}
+}
+
+.navbar-inverse { margin-bottom: 0; border-radius: 0}
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover, .navbar-inverse, .navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #081BCC}
+.navbar-inverse { background-image: none }
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret, .navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF; border-top-color: #FFFFFF}
+.navbar-inverse .navbar-toggle, .navbar-inverse { border-color: #081BCC}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {background-color: #081BCC}
+
