@@ -64,14 +64,14 @@ h3 {
 }
 #getStarted img {
   position: absolute;
-  top: 80px;
+  top: 40px;
   display: block;
   height: 4rem;
 }
 #getStarted .item {
   max-width: 400px;
   margin: 0 auto;
-  padding: 150px 0;
+  padding: 100px 50px;
 }
 
 .carousel-control.right, .carousel-control.left  {
